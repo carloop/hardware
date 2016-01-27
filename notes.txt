@@ -1,0 +1,34 @@
+Smaller CAN transceiver:
+SN65HVD23x 3.3V 8 pin SOIC
+http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf
+
+==> See layout guidelines
+
+TJA1049 8 SOIC with 5V supply and 3.3V IO:
+http://www.nxp.com/documents/data_sheet/TJA1049.pdf
+
+Supply: LM2940-N IC REG LDO 5V 1A SOT223
+==============> THIS HAS REVERSE BATTERY PROTECTION ELIMINATING 1 COMPONENT!!!!!!
+Input cap: CAP CER 0.47UF 50V X7R 0805	C0805C474K5RACTU
+
+
+
+Reverse protection diode:
+
+SparkFun uses MBRA140 (1A, 0.56V drop, 40V reverse)
+
+OpenXC uses RS1J (1A, 1.56V drop, 600V reverse)
+
+  ==> Use MBRA140
+
+0.016 width for power supply trace
+
+Make VCC plane around regulator (both sides if possible) and use a bunch
+of vias under the case to transfer heat.
+
+
+MicroSD card => Just connecto to SPI (no external interfacing needed)
+
+Amphenol http://www.digikey.com/product-detail/en/114-00841-68/114-00841-68-1-ND/2187101
+Molex http://www.digikey.com/product-detail/en/1040310811/WM6357CT-ND/2804769
+

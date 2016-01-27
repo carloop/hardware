@@ -14,10 +14,14 @@ Luckily the pins for a Photon fits right in between the 2 rows of pins
 of a straight OBD-II connector so it's possible to make a very compact
 OBD-II adapter with a Photon.
 
+# [Preorder one!](https://shop.trycelery.com/page/candlestick)
+
+
 ## Features
 
 * High-speed CAN transceiver [adapted from the OpenXC project](https://github.com/openxc/reference-vi/blob/gh-pages/electrical/design/can.mkd)
 * Get power from the OBD-II port using [a robust circuit adapted from the OpenXC project](https://github.com/openxc/reference-vi/blob/gh-pages/electrical/design/power.mkd)
+* GPS connector
 * Stacked components for a more compact development kit than a
 traditional 90-degrees PCB mount OBD-II connector.
 * Powered by the Particle platform!
@@ -42,10 +46,10 @@ Assembled adapter
 
 Here are the PCB design files.
 
-* [Schematic R1.1](particle-can-v1.1.sch)
-* [Layout R1.1](particle-can-v1.1.brd)
-* [Bill of materials](particle-can-v1.1_BOM.csv)
-* [OSH Park order page](https://oshpark.com/shared_projects/jBPksOp6)
+* [Schematic](CANdlestick.v2/particle-can-v2.0.sch)
+* [Layout](CANdlestick.v2/particle-can-v2.0.brd)
+* [Bill of materials](particle-can-v2.0_BOM.csv)
+* [OSH Park order page](https://oshpark.com/shared_projects/Xwh3Qx9U)
 
 ## Software
 

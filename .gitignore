@@ -33,5 +33,8 @@ archive/
 # Eagle lock files
 *.lck
 
+# Eagle settings files
+*.epf
+
 # Vim swap files
 *.sw*
