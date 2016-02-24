@@ -44,15 +44,15 @@ Assembled adapter
 
 ## Hardware
 
-Here are the PCB design files for the Revision 3.
+Here are the PCB design files for the Revision 2.1
 
-* [Schematic (PDF)](CANdlestick.v3/particle-can-v3.0.pdf)
-  [(Eagle)](CANdlestick.v3/particle-can-v3.0.sch)
-* [Layout (top)](CANdlestick.v3/particle-can-v3-top.png)
-  [(bottom)](CANdlestick.v3/particle-can-v3-bottom.png)
-  [(Eagle)](CANdlestick.v3/particle-can-v3.0.brd)
-* [Bill of materials](particle-can-v3.0_BOM.csv)
-* [OSH Park order page](https://oshpark.com/shared_projects/7OB69iux)
+* [Schematic (PDF)](CANdlestick.v2/particle-can-v2.1.pdf)
+  [(Eagle)](CANdlestick.v2/particle-can-v2.1.sch)
+* [Layout (top)](CANdlestick.v2/particle-can-v2.1-layout-top.pdf)
+  [(bottom)](CANdlestick.v2/particle-can-v2.1-layout-bottom.pdf)
+  [(Eagle)](CANdlestick.v2/particle-can-v2.1.brd)
+* [Bill of materials](particle-can-v2.1_BOM.csv)
+* [OSH Park order page](https://oshpark.com/shared_projects/ir8I9vT6)
 
 ## Software
 
