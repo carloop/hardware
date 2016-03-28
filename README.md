@@ -1,4 +1,4 @@
-# CANdlestick
+# [Carloop](https://www.carloop.io)
 ## OBD-II CAN adapter for the Particle Photon/Electron
 **By Julien Vanier**
 
