@@ -1,0 +1,14 @@
+
+Cin: 10uF GRM31CR61E106K
+Cout: 22uF GRM31CR61C226M
+D1: Schottky B230A-13-F
+Cb: 10nF
+R1: 91k
+R2: 17.4k
+L: 15uH NR8040T150M
+
+Reverse protection:
+--> 600V 2A silicon ultrafast reverse protection diode
+Or Schottky like MBRA140 but for 2A
+
+
