@@ -34,10 +34,10 @@ Assembled adapter
 
 * [With Photon](images/detail-photon.jpg)
 * [With Electron](images/detail-electron.jpg)
-* [Front view](images/detail-front.jpg)
+* [Front view](images/front.png)
 * [Side view](images/detail-side.jpg)
-* [Back view](images/detail-back.jpg)
-* [Angle view](images/detail-angle.jpg)
+* [Back view](images/back.png)
+* [Angle view](images/angle.png)
 
 ## Hardware
 
