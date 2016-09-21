@@ -26,7 +26,7 @@ traditional 90-degrees PCB mount OBD-II connector.
 
 PCB
 
-![PCB top](images/pcb-top.png)
+![PCB top](images/Photo1_750.png)
 
 
 Assembled adapter
