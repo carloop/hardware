@@ -1,20 +1,16 @@
 # [Carloop](https://www.carloop.io)
-## OBD-II CAN adapter for the Particle Photon/Electron
-**By Julien Vanier**
+## OBD-II CAN adapter for the Particle Photon/Electron and RedBear Duo
 
 ![Assembled](images/photo.jpg)
 
-I wanted to make a compact internet-connected analyzer for my car's
-OBD-II diagnostic port.
-
 The WiFi-capable Particle Photon or better yet the cellular Particle
-Electron are great options for that.
+Electron can turn your car into a cloud connected device!
 
 Luckily the pins for a Photon fits right in between the 2 rows of pins
 of a straight OBD-II connector so it's possible to make a very compact
 OBD-II adapter with a Photon.
 
-# [Preorder one!](https://shop.trycelery.com/page/candlestick)
+# [Check out the Carloop Store](https://store.carloop.io/)
 
 
 ## Features
@@ -56,12 +52,10 @@ Here are the PCB design files for the Revision 2.1
 
 ## Software
 
-[I helped implement the CAN driver in the Photon and the Electron.](https://github.com/spark/firmware/pull/790/) I will see what I can do with it now!
-
-*To be continued...*
+The [Carloop Library](https://github.com/carloop/carloop-library) is available on Particle's Web IDE.  You will need to flash a [Particle Photon](https://store.carloop.io/products/particle-photon), Particle Electron or RedBear Duo with an example app which can ben found in Carloop Library.   See 'Getting Started' instructions here: [https://community.carloop.io/t/getting-started-with-carloop/23](https://community.carloop.io/t/getting-started-with-carloop/23)
 
 ## License
 
-Copyright 2016 Julien Vanier
+Copyright 2016 1000 Tools, Inc.
 
 Licensed under the GPL v3
