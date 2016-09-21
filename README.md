@@ -1,7 +1,7 @@
 # [Carloop](https://www.carloop.io)
 ## OBD-II CAN adapter for the Particle Photon/Electron and RedBear Duo
 
-![Assembled](images/photo.jpg)
+<img src="https://github.com/carloop/hardware/blob/master/images/Photo2_750.png" width="355px">
 
 The WiFi-capable Particle Photon or better yet the cellular Particle
 Electron can turn your car into a cloud connected device!
