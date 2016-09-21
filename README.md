@@ -6,9 +6,11 @@
 The WiFi-capable Particle Photon or better yet the cellular Particle
 Electron can turn your car into a cloud connected device!
 
-Luckily the pins for a Photon fits right in between the 2 rows of pins
-of a straight OBD-II connector so it's possible to make a very compact
-OBD-II adapter with a Photon.
+Carloop's PCB connects your car's CAN bus network to the Photon, Electron and Duo. It also provides battery power and a GPS to track location.
+
+# Particle Photon Example
+
+![Carloop Photon Pinout](images/Carloop_Photon_Pinout_small.png)
 
 # [Check out the Carloop Store](https://store.carloop.io/)
 
@@ -50,7 +52,7 @@ Here are the PCB design files for the Revision 2.1
 
 ## Software
 
-The [Carloop Library](https://github.com/carloop/carloop-library) is available on Particle's Web IDE.  You will need to flash a [Particle Photon](https://store.carloop.io/products/particle-photon), Particle Electron or RedBear Duo with an example app which can ben found in Carloop Library.   See 'Getting Started' instructions here: [https://community.carloop.io/t/getting-started-with-carloop/23](https://community.carloop.io/t/getting-started-with-carloop/23)
+The [Carloop Library](https://github.com/carloop/carloop-library) is available on Particle's Web IDE.  You will need to flash a [Particle Photon](https://store.carloop.io/products/particle-photon), [Particle Electron](https://store.carloop.io/products/particle-electron) or [RedBear Duo](https://store.carloop.io/products/redbear-duo) with an example app which can ben found in Carloop Library.   See 'Getting Started' instructions here: [https://community.carloop.io/t/getting-started-with-carloop/23](https://community.carloop.io/t/getting-started-with-carloop/23)
 
 ## License
 
