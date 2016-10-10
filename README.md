@@ -1,7 +1,7 @@
 # [Carloop](https://www.carloop.io)
 ## OBD-II CAN adapter for the Particle Photon/Electron and RedBear Duo
 
-<img src="https://github.com/carloop/hardware/blob/master/images/Photo2_750.png" width="355px">
+<img src="images/Photo2_750.png" width="355">
 
 The WiFi-capable Particle Photon or better yet the cellular Particle
 Electron can turn your car into a cloud connected device!
@@ -28,7 +28,7 @@ traditional 90-degrees PCB mount OBD-II connector.
 
 PCB
 
-<img src="https://github.com/carloop/hardware/blob/master/images/Photo1_750.png" width="355px">
+<img src="images/Photo1_750.png" width="355">
 
 Assembled adapter
 
@@ -43,12 +43,12 @@ Assembled adapter
 
 Here are the PCB design files for the Revision 2.1
 
-* [Schematic (PDF)](CANdlestick.v2/particle-can-v2.1.pdf)
-  [(Eagle)](CANdlestick.v2/particle-can-v2.1.sch)
-* [Layout (top)](CANdlestick.v2/particle-can-v2.1-layout-top.pdf)
-  [(bottom)](CANdlestick.v2/particle-can-v2.1-layout-bottom.pdf)
-  [(Eagle)](CANdlestick.v2/particle-can-v2.1.brd)
-* [Bill of materials](particle-can-v2.1_BOM.csv)
+* [Schematic (PDF)](Carloop.v2/carloop-v2.1.pdf)
+  [(Eagle)](Carloop.v2/carloop-v2.1.sch)
+* [Layout (top)](Carloop.v2/carloop-v2.1-layout-top.pdf)
+  [(bottom)](Carloop.v2/carloop-v2.1-layout-bottom.pdf)
+  [(Eagle)](Carloop.v2/carloop-v2.1.brd)
+* [Bill of materials](carloop-v2.1_BOM.csv)
 * [OSH Park order page](https://oshpark.com/shared_projects/ir8I9vT6)
 
 ## Software
