@@ -44,11 +44,11 @@ Assembled adapter
 Here are the PCB design files for the Revision 2.1
 
 * [Schematic (PDF)](Carloop.v2/Carloop-v2.1.pdf)
-  [(Eagle)](Carloop.v2/carloop-v2.1.sch)
-* [Layout (top)](Carloop.v2/carloop-v2.1-layout-top.pdf)
-  [(bottom)](Carloop.v2/carloop-v2.1-layout-bottom.pdf)
-  [(Eagle)](Carloop.v2/carloop-v2.1.brd)
-* [Bill of materials](carloop-v2.1_BOM.csv)
+  [(Eagle)](Carloop.v2/Carloop-v2.1.sch)
+* [Layout (top)](Carloop.v2/Carloop-v2.1-layout-top.pdf)
+  [(bottom)](Carloop.v2/Carloop-v2.1-layout-bottom.pdf)
+  [(Eagle)](Carloop.v2/Carloop-v2.1.brd)
+* [Bill of materials](Carloop.v2/Carloop-v2.0_BOM.csv)
 * [OSH Park order page](https://oshpark.com/shared_projects/ir8I9vT6)
 
 ## Software
