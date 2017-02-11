@@ -41,14 +41,15 @@ Assembled adapter
 
 ## Hardware
 
-Here are the PCB design files for the Revision 2.1
+Here are the PCB design files for the Revision 2.3
 
-* [Schematic (PDF)](Carloop.v2/Carloop-v2.1.pdf)
-  [(Eagle)](Carloop.v2/Carloop-v2.1.sch)
-* [Layout (top)](Carloop.v2/Carloop-v2.1-layout-top.pdf)
-  [(bottom)](Carloop.v2/Carloop-v2.1-layout-bottom.pdf)
-  [(Eagle)](Carloop.v2/Carloop-v2.1.brd)
-* [Bill of materials](Carloop.v2/Carloop-v2.0_BOM.csv)
+* [Schematic (PDF)](Carloop.v2/Carloop-v2.3.pdf)
+  [(Eagle)](Carloop.v2/Carloop-v2.3.sch)
+* [Layout](Carloop.v2/Carloop-v2.3-pcb-combined.pdf)
+  [(top)](Carloop.v2/Carloop-v2.3-layout-top.pdf)
+  [(bottom)](Carloop.v2/Carloop-v2.3-layout-bottom.pdf)
+  [(Eagle)](Carloop.v2/Carloop-v2.3.brd)
+* [Bill of materials](Carloop.v2/Carloop-v2.3_BOM.csv)
 * [OSH Park order page](https://oshpark.com/shared_projects/ir8I9vT6)
 
 ## Software
