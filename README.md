@@ -41,7 +41,7 @@ Assembled adapter
 
 ## Hardware
 
-There are a few hardware variants
+There are a few hardware variants: [Carloop](Carloop.v2), [Carloop XL](CarloopXL.v3) and [Carloop Retro](CarloopRetro.v0).
 
 Here are the PCB design files for the Revision 2.3, the one sold on the [Carloop store](https://store.carloop.io)
 
