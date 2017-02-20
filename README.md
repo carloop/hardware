@@ -41,7 +41,9 @@ Assembled adapter
 
 ## Hardware
 
-Here are the PCB design files for the Revision 2.3
+There are a few hardware variants
+
+Here are the PCB design files for the Revision 2.3, the one sold on the [Carloop store](https://store.carloop.io)
 
 * [Schematic (PDF)](Carloop.v2/Carloop-v2.3.pdf)
   [(Eagle)](Carloop.v2/Carloop-v2.3.sch)
@@ -51,6 +53,17 @@ Here are the PCB design files for the Revision 2.3
   [(Eagle)](Carloop.v2/Carloop-v2.3.brd)
 * [Bill of materials](Carloop.v2/Carloop-v2.3_BOM.csv)
 * [OSH Park order page](https://oshpark.com/shared_projects/ir8I9vT6)
+
+Here are the PCB design files for the extended version that fits a Particle Electron. It is a prototype.
+
+* [Schematic (Eagle)](CarloopXL.v3/Carloop-v3.1.sch)
+* [Layout (Eagle)](CarloopXL.v3/Carloop-v3.1.brd)
+* [Bill of materials](CarloopXL.v3/Carloop-v3.1_BOM.csv)
+
+Here are the PCB design files for a "retro" variant with a K-Line transceiver contributed by [Alan R](https://github.com/cyclin-al).
+
+* [Schematic (Eagle)](CarloopRetro.v0/CarloopRetro-v0.1.sch)
+* [Layout (Eagle)](CarloopRetro.v0/CarloopRetro-v0.1.brd)
 
 ## Software
 
