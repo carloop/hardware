@@ -38,3 +38,4 @@ archive/
 
 # Vim swap files
 *.sw*
+svg2poly.log
