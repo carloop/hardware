@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/carloop/hardware/blob/master/images/carloop%20with%20text.png?raw=true" alt="Carloop Logo"/>
+</p>
+
 # [Carloop](https://www.carloop.io)
 ## OBD-II CAN adapter for the Particle Photon/Electron and RedBear Duo
 
