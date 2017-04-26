@@ -3207,18 +3207,6 @@ separated by 0.9"</text>
 <wire x1="5.08" y1="121.92" x2="10.16" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="CORE" gate="G$1" pin="D5"/>
-<wire x1="5.08" y1="116.84" x2="10.16" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="CORE" gate="G$1" pin="D4"/>
-<wire x1="5.08" y1="111.76" x2="10.16" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="CORE" gate="G$1" pin="WKP"/>
@@ -3295,14 +3283,13 @@ separated by 0.9"</text>
 <label x="91.44" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CORE" gate="G$1" pin="A0"/>
-<wire x1="-30.48" y1="91.44" x2="-43.18" y2="91.44" width="0.1524" layer="91"/>
-<label x="-43.18" y="91.44" size="1.778" layer="95"/>
+<pinref part="CORE" gate="G$1" pin="D5"/>
+<wire x1="5.08" y1="116.84" x2="10.16" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="6"/>
-<wire x1="73.66" y1="50.8" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
-<label x="60.96" y="50.8" size="1.778" layer="95"/>
+<pinref part="CORE" gate="G$1" pin="D4"/>
+<wire x1="5.08" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
+<label x="10.16" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -3326,7 +3313,7 @@ separated by 0.9"</text>
 <net name="SD_CS" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CS"/>
-<wire x1="-20.32" y1="58.42" x2="-30.48" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="58.42" x2="-38.1" y2="58.42" width="0.1524" layer="91"/>
 <label x="-38.1" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3338,7 +3325,7 @@ separated by 0.9"</text>
 <net name="SPI_MOSI" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="DI"/>
-<wire x1="-20.32" y1="55.88" x2="-30.48" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="55.88" x2="-38.1" y2="55.88" width="0.1524" layer="91"/>
 <label x="-38.1" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3350,7 +3337,7 @@ separated by 0.9"</text>
 <net name="SPI_SCK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SCK"/>
-<wire x1="-20.32" y1="50.8" x2="-30.48" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="50.8" x2="-38.1" y2="50.8" width="0.1524" layer="91"/>
 <label x="-38.1" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3362,7 +3349,7 @@ separated by 0.9"</text>
 <net name="SPI_MISO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="DO"/>
-<wire x1="-20.32" y1="45.72" x2="-30.48" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="45.72" x2="-38.1" y2="45.72" width="0.1524" layer="91"/>
 <label x="-38.1" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3379,7 +3366,7 @@ separated by 0.9"</text>
 </segment>
 <segment>
 <pinref part="CORE" gate="G$1" pin="D3"/>
-<wire x1="5.08" y1="106.68" x2="15.24" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="106.68" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
 <label x="10.16" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3387,6 +3374,23 @@ separated by 0.9"</text>
 <segment>
 <pinref part="CORE" gate="G$1" pin="DAC"/>
 <wire x1="-30.48" y1="121.92" x2="-35.56" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GPS_EN" class="0">
+<segment>
+<pinref part="CORE" gate="G$1" pin="A0"/>
+<wire x1="-30.48" y1="91.44" x2="-45.72" y2="91.44" width="0.1524" layer="91"/>
+<label x="-45.72" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="6"/>
+<wire x1="73.66" y1="50.8" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
+<label x="60.96" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="GPS" gate="G$1" pin="19"/>
+<wire x1="53.34" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
+<label x="63.5" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
