@@ -1200,9 +1200,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <devices>
 <device name="" package="SOT223">
 <connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="GND" pad="1 4"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10403,7 +10403,7 @@ DIO-08053</description>
 <connect gate="G$1" pin="D6" pad="23"/>
 <connect gate="G$1" pin="D7" pad="24"/>
 <connect gate="G$1" pin="D8" pad="25"/>
-<connect gate="G$1" pin="EN" pad="26"/>
+<connect gate="G$1" pin="EN" pad="27"/>
 <connect gate="G$1" pin="GND" pad="4"/>
 <connect gate="G$1" pin="LI+" pad="28"/>
 <connect gate="G$1" pin="MD" pad="3"/>
@@ -10415,7 +10415,7 @@ DIO-08053</description>
 <connect gate="G$1" pin="SCL" pad="18"/>
 <connect gate="G$1" pin="SDA" pad="17"/>
 <connect gate="G$1" pin="TX" pad="15"/>
-<connect gate="G$1" pin="VUSB" pad="27"/>
+<connect gate="G$1" pin="VUSB" pad="26"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10438,7 +10438,7 @@ DIO-08053</description>
 <connect gate="G$1" pin="D6" pad="23"/>
 <connect gate="G$1" pin="D7" pad="24"/>
 <connect gate="G$1" pin="D8" pad="25"/>
-<connect gate="G$1" pin="EN" pad="26"/>
+<connect gate="G$1" pin="EN" pad="27"/>
 <connect gate="G$1" pin="GND" pad="4"/>
 <connect gate="G$1" pin="LI+" pad="28"/>
 <connect gate="G$1" pin="MD" pad="3"/>
@@ -10450,7 +10450,7 @@ DIO-08053</description>
 <connect gate="G$1" pin="SCL" pad="18"/>
 <connect gate="G$1" pin="SDA" pad="17"/>
 <connect gate="G$1" pin="TX" pad="15"/>
-<connect gate="G$1" pin="VUSB" pad="27"/>
+<connect gate="G$1" pin="VUSB" pad="26"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10473,7 +10473,7 @@ DIO-08053</description>
 <connect gate="G$1" pin="D6" pad="23"/>
 <connect gate="G$1" pin="D7" pad="24"/>
 <connect gate="G$1" pin="D8" pad="25"/>
-<connect gate="G$1" pin="EN" pad="26"/>
+<connect gate="G$1" pin="EN" pad="27"/>
 <connect gate="G$1" pin="GND" pad="4"/>
 <connect gate="G$1" pin="LI+" pad="28"/>
 <connect gate="G$1" pin="MD" pad="3"/>
@@ -10485,7 +10485,7 @@ DIO-08053</description>
 <connect gate="G$1" pin="SCL" pad="18"/>
 <connect gate="G$1" pin="SDA" pad="17"/>
 <connect gate="G$1" pin="TX" pad="15"/>
-<connect gate="G$1" pin="VUSB" pad="27"/>
+<connect gate="G$1" pin="VUSB" pad="26"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10508,7 +10508,7 @@ DIO-08053</description>
 <connect gate="G$1" pin="D6" pad="23 23'"/>
 <connect gate="G$1" pin="D7" pad="24 24'"/>
 <connect gate="G$1" pin="D8" pad="25 25'"/>
-<connect gate="G$1" pin="EN" pad="26 26'"/>
+<connect gate="G$1" pin="EN" pad="27 27'"/>
 <connect gate="G$1" pin="GND" pad="4 4'"/>
 <connect gate="G$1" pin="LI+" pad="28 28'"/>
 <connect gate="G$1" pin="MD" pad="3 3'"/>
@@ -10520,7 +10520,7 @@ DIO-08053</description>
 <connect gate="G$1" pin="SCL" pad="18 18'" route="any"/>
 <connect gate="G$1" pin="SDA" pad="17 17'"/>
 <connect gate="G$1" pin="TX" pad="15 15'"/>
-<connect gate="G$1" pin="VUSB" pad="27 27'"/>
+<connect gate="G$1" pin="VUSB" pad="26 26'"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10897,9 +10897,6 @@ Special BOM entry-only specifier field.</description>
 <text x="43.18" y="71.12" size="3.81" layer="97">Microcontroller</text>
 <text x="195.58" y="160.02" size="3.81" layer="97">CAN Transceiver</text>
 <text x="10.16" y="81.28" size="1.778" layer="97">Replace by AP2112 (LDO 5V to 3.3V)</text>
-<text x="137.16" y="-7.62" size="5.08" layer="91">TODO:
-Fix footprint of AZ1117 3.3V regulator
-Swap EN and VUSB on footprint of Particle mesh</text>
 </plain>
 <instances>
 <instance part="GND9" gate="1" x="294.64" y="119.38"/>
@@ -11649,10 +11646,6 @@ Swap EN and VUSB on footprint of Particle mesh</text>
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
